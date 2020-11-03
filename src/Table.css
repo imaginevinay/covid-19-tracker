@@ -1,0 +1,26 @@
+.table{
+    border: 1px solid lightgray;
+    border-radius: 1px;
+    margin-top: 20px;
+    overflow-y: scroll;
+    height: 400px;
+    color: #6a5d5d;
+}
+
+.table tr{
+    display: flex;
+    justify-content: space-between;
+}
+
+.table td{
+    padding: 0.5rem;
+}
+
+.table tr:nth-of-type(odd) {
+    background-color: #f3f2f8;
+}
+
+
+@media (max-width: 990px) {
+
+}
